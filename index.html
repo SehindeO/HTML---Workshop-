@@ -4,74 +4,82 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial -scale="1.0" >
         <title>HTML WORKSHOP</title>
+         <link rel="stylesheet" href="./style.css">
+
+        <!--internal Stling 
+        <style>
+            p {
+                font-size: 50px;
+            }
+        </styles>
     </head>
 
     <body>
+        <-- css seletors
+            type(p, h1, img), id(#), class(.) -->
         <header>
-            <nav>
+            <nav class="myNav">
                 <ul>
                     <li>
-                        <a href="#Home" >Home</a>
+                        <!-- inline styling -->
+                    <a href="#Home" style="background-color: aqua;">Home</a>
                     </li>
-                        
-                </ul>
-
-            </nav>
-        </header>
-        <header>
-            <nav>
-                <ul>
                     <li>
                         <a href="#About" >About</a>
-                    
                     </li>
-                </ul>
-            </nav>
-        </header>
-            <nav>
-                <ul>
                     <li>
-                        <a href="#Contact" >Contact</a>
+                      <a href="#Contact" >Contact</a>
+                    </li>
+                <ul>
+                </nav>
+        </header>
         <section>
             <div>
-                <img src="./download.jpg"
+                <ing id="myimage" src="./download.jpg"
                 alt="Computer" />
-                <p>
+                <p class="intro">
                     An Interactive and Creative Artist. Over Fifteen (15) Years Working Experience. A Member of MANES ICEBORN (LAF3FS) Nigeria Hackerspace. Full-Stack Developer and a Marketing Specialist.
                 </p>
             </div>
-        </section>
+        <section>
             <ol type="A">
-                <li>Name: Mark</li>
-                <li>Email: m.mark@hotmail.com</li>
+                <li>Name: Valerie</li>
+                <li>Last Name: Odesina</li>
+                <li>Email: olusesan.funmilayo@gmail.com</li>
                 <li>Phone Number: +2348030443673</li>
-                <li>Academic Background: school</li>
-                 </ol>
-                        <ol>
+                <li>
+                    Academic Background:
+                    <ol>
                         <li>GoMyCode Certificate</li>
                         <li>Computer Science Bachelor Degree</li>
                     </ol>
-                    <iframe
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <Section>
-                        <form>
-                            <label>Full Name</label>
-                            <input type="text" name="fullName" placeholder="Your name"/>
-                            
+                </li>
+            </ol>
 
-                        
-                            
-                     <Section>
-                        <form>
-                            <label>Email Address</label>
-                            <input type="text" email="email" placeholder="Your email"
-                        </form>
-                     </Section>   
-                            
-                        </form>
-                        <label>Phone Number<Label>
-                            <input type="text" mail="Phone number"    placeholder="Your Phone Number"/>  
-                    </Section>
+                    <iframe class="video"
+                        width="1318"
+                        height="641"
+                        src="https://www.youtube.com/embed/qz0aGYrrlhU" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                        picture-in-picture; web-share" 
+                        allowfullscreen
+                    ></iframe>
+            </Section>
+            <section>           
+                <form class="info">
+                    <label>Full Name</label>
+                    <input type="text" name="fullName" placeholder="Your name"/>
+                    <label>Email Address</label>
+                    <input type="text" email="email" placeholder="Your email"/>
+                    
+                    <label>Phone Number:</Label>
+                    <input type="text" mail="Phone number" placeholder="Your Phone Number"/>  
+                    <button type="submit">please submit</button>
+                </form>
+            </section>
+        </body>
                     
                     </li>
                 </ul>

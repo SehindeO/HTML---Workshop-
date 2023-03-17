@@ -1,0 +1,99 @@
+
+.myNav {
+    background-color: lightgray;
+    position:fixed;
+    width: 100%;
+    height: 80px;
+    
+}
+
+
+.myNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.myNav ul li {
+      display: inline;
+      padding: 40px  
+}
+.myNav ul li a {
+    padding: 20px 15;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: gold;
+
+}
+#myimage {
+    width: 100%;
+
+}
+
+.intro {
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 50px;
+    line-height: 2;
+}
+ol {
+    list-style: none;
+}  
+
+.video {
+    width: 70%
+}
+
+
+ .info {
+    padding: 30px;
+}  
+ .info > input, label {
+    display: block;
+}
+ 
+input[type='text'],
+input[type='email'],
+input[type='number'] {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0px 22px 0px;
+    border: none;
+    background-color:gray;
+    color: white;
+}
+
+input[type='number'] {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0px 22px 0px;
+    border: none;
+    background-color: red;
+    color: white;
+
+}
+
+botton {
+    width: 100%;
+    background-color: green;
+    padding: 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkviolet;
+    width: 50%;
+}  
+
+
+
+
+
+
+
+
